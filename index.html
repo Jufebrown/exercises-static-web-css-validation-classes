@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Banking Form</title>
+	</head>
+
+	<body>
+		<form action="">
+			<fieldset>
+				<legend>General Info</legend>
+				<label for="firstName">First Name:</label>
+				<input id="firstName" type="text">
+				<label for="midInitial">Middle Initial:</label>
+			  	<input id="midInitial" type="text">
+			  	<label for="lastName">Last Name:</label>
+			  	<input id="lastName" type="text"><br>
+				<label for="address">Address:</label>
+			  	<input id="address" type="text">
+		  	</fieldset>
+		  	<fieldset>
+		  	<legend>Employment Info</legend>
+			<label for="occupation">Occupation:</label>
+		  	<input id="occupation" type="text">
+			<label for="employer">Employer:</label>
+		  	<input id="employer" type="text">
+		  	<label for="employerAddress">Employer Address:</label>
+		  	<input id="employerAddress" type="text">
+		  	</fieldset>
+			<fieldset>
+		    <legend>Loan Info</legend>
+		    	<label>Type of Loan:</label>
+		    	<select name="select">
+		  			<option value="commercial">Commerial</option> 
+		  			<option value="realEstate">Real Estate</option>
+		  			<option value="personal">Personal</option>
+		  			<option value="mortgage" selected>Mortgage</option>
+				</select><br>
+				<label for="loanAmount">Requested Amount:</label>
+				<input id="loanAmount" type="number"><br>
+				<label>Length of Loan:</label><br>
+		    	<input type="radio" name="length" id="5years"> <label for="5years">5 Years</label><br>
+		    	<input type="radio" name="length" id="15years"> <label for="15years">15 Years</label><br>
+		    	<input type="radio" name="length" id="30years"> <label for="30years">30 Years</label><br>
+		    	<label>Special Conditions:</label><br>
+		    	<label><input type="checkbox" id="downPayment" value="special">I have a down payment.</label><br>
+		    	<label><input type="checkbox" id="outState" value="special">Out-of-state resident</label><br>
+		    	<label><input type="checkbox" id="married" value="special">Married</label><br>
+		    	<label><input type="checkbox" id="cosign" value="special">Loan will be co-signed.</label><br>
+		    	<textarea id="comments" rows="20" cols="50">Additional Comments</textarea>
+			</fieldset>
+			<fieldset>
+		  	<legend>Contact Info</legend>
+			<label for="email">Email Address:</label>
+		  	<input id="email" type="email">
+			<label for="tel">Telephone Number:</label>
+		  	<input id="tel" type="Telephone">
+		  	<label for="LinkedIn">LinkedIn url:</label>
+		  	<input id="LinkedIn" type="text">
+		  	</fieldset>
+		</form>
+	</body>
+</html>
