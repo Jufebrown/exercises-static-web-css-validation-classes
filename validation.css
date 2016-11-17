@@ -1,0 +1,15 @@
+input[type="email"]:valid {
+  background-color: green;
+}
+
+input[type="email"]:invalid {
+  background-color: red;
+}
+
+input[type="url"]:valid {
+  background-color: green;
+}
+
+input[type="url"]:invalid {
+  background-color: red;
+}
